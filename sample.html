@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html class="no-js" lang="zxx">
+<!--- HEAD INCLUDED --->
+<?php include 'inc/head.php'; ?>
+<body class="inner-page">
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- START SECTION HEADINGS -->
+        <!-- Header Container
+        ================================================== -->
+      <?php include 'inc/header.php'; ?>
+        <div class="clearfix"></div>
+        <!-- Header Container / End -->
+
+        <section class="headings">
+            <div class="text-heading">
+                <div class="container">
+                    <h1 class="text-center">Sample</h1>
+                </div>
+            </div>
+        </section>
+        <div class="road">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a href="index.php">Home</a><span>»</span><span>Sample</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION HEADINGS -->
+
+        <!-- START FOOTER -->
+        <?php include 'inc/footer.php'; ?>
+
+        <a data-scroll href="#wrapper" class="go-up"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+        <!-- END FOOTER -->
+
+        <!-- START PRELOADER -->
+        <div id="preloader">
+            <div id="status">
+                <div class="status-mes"></div>
+            </div>
+        </div>
+        <!-- END PRELOADER -->
+
+        <!-- ARCHIVES JS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/mmenu.min.js"></script>
+        <script src="js/mmenu.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/lightcase.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/inner-script.js"></script>
+        <script>
+            $(window).on('scroll load', function() {
+                $("#header.cloned #logo img").attr("src", $('#header #logo img').attr('data-sticky-logo'));
+            });
+
+        </script>
+
+    </div>
+    <!-- Wrapper / End -->
+</body>
+</html>
